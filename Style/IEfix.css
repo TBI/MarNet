@@ -1,0 +1,73 @@
+
+			#wrapper {
+			height: 1000px;
+			}
+			
+			
+			#Extension {
+			position: absolute;
+			height: 40px;
+			width: 350px;
+			top: 183px;
+			z-index: 7;
+			background: url(../Images/Navigation_bg.gif) repeat-x;
+			}	
+			
+			
+			#OpenTimes {
+			position: absolute;
+			left: -540px;;
+			z-index: 12;
+			height: 200px;
+			width: 568;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+    		border:1px dotted #ccc;
+			padding:20px;
+
+			}
+			
+				
+			
+			
+			
+			#HomeContent {
+			left: -540px;;
+			
+			}
+			
+					
+			
+			#ContactDetails {
+			position: absolute;
+			left: 100px;
+			float: left;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+			border:1px dotted #ccc;
+			padding:20px;
+			}	
+			
+			
+			.Navigation a:link{
+			color: #FFFFFF;
+			text-decoration: none;
+			}	
+				
+			.Navigation a:active {
+			color: #FFFFFF;
+			text-decoration: none;
+			}
+			
+			.Navigation a:visited {
+			color: #FFFFFF; 
+			text-decoration: none
+			}
+			
+			.Navigation a:hover {
+			color: #FFFFFF; 
+			text-decoration: none}
+			}
+			
+			
+			

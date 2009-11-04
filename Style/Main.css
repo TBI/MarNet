@@ -1,0 +1,95 @@
+			body {
+			text-align: left;
+			min-width: 760px;
+			background-color: #9EBCD8;
+			overflow-x: hidden;
+			overflow-y: auto;
+			}
+
+			#wrapper {
+         
+         
+			width:900px;
+			height:1000px;
+			position:relative;
+			margin-left: auto;
+			margin-right: auto;
+			z-index:2;
+			background-color: #FFFFFF;
+
+			}
+
+			#Banner {
+			width: 900px;
+			height: 170px;
+			
+			z-index: 3;
+			}
+			
+			#Extension {
+			position: relative;
+			height: 40px;
+			top: 10px;
+			z-index: 7;
+			background: url(../Images/Navigation_bg.gif) repeat-x;
+			}			
+			
+			#Search {
+			text-align: right; 
+			position: relative; 
+			top: 6px;
+			z-index:10;
+			color: #FFF;
+			}
+			
+			#HomeContent {
+			position: absolute;
+			left: 10px;
+			top: 150px;
+			float: left;
+			width: 835px;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+			border:1px dotted #ccc;
+			padding:20px;
+			}			
+			
+				
+			
+			#ContactDetails {
+			position: absolute;
+			left: 645px;
+			top: 470px;
+			width: 200px; 
+			height: 200px;
+			float: left;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+			border:1px dotted #ccc;
+			padding:20px;
+			}	
+			
+			#OpenTimes {
+			position: absolute;
+			left: 10px;
+			top: 470px;
+			z-index: 12;
+			width: 582px;
+			height: 200px;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+    		border:1px dotted #ccc;
+			padding:20px;
+
+			}
+			
+			
+			
+			
+			h4 {
+			text-decoration: underline;
+			
+			
+			 
+			}
+			

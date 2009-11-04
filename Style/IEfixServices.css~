@@ -1,0 +1,57 @@
+#wrapper {
+         
+         
+			width:900px;
+			height:1500px;
+			}
+
+#Extension {
+			position: absolute;
+			height: 40px;
+			width: 3px;
+			top: 183px;
+			z-index: 7;
+			background: url(../Images/Navigation_bg.gif) repeat-x;
+			}	
+
+
+#ConnectionRates {
+			position: absolute;
+			left: -540px;;
+			z-index: 12;
+			height: 200px;
+			width: 568;
+			top: 608px;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+    		border:1px dotted #ccc;
+			padding:20px;
+
+			}		
+			
+#ServicesContent {
+			left: -540px;;
+			
+			}	
+			
+#ServicesImage {
+			position: absolute;
+			top: 172px;
+			left: 140px;
+			
+			
+
+			}	
+			
+#Payment {
+			position: absolute;
+			left: 140px;
+			top: 608px;
+			width: 157px; 
+			height: 200px;
+			float: left;
+			background: #F7F7F7 url('images/dogear.jpg') no-repeat;
+    		background-position:100% 0%;
+			border:1px dotted #ccc;
+			padding:20px;
+			}	

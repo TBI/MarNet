@@ -1,0 +1,78 @@
+ul.Navigation {
+	position: relative; 
+	z-index: 8; 
+	left: 0px; 
+	top: 10px
+}
+
+ul.Navigation {
+	list-style: none;
+	padding: 0 0px;
+	margin: 0;
+	float: left;
+	width: 550px;
+	background: #222;
+	font-size: 1.1em;
+	background: url(../Images/Navigation_bg.gif) repeat-x;
+}
+ul.Navigation li {
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base for sub navigation--*/
+}
+ul.Navigation li a{
+	padding: 10px 5px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.Navigation li a:hover{
+	background: url(../Images/Navigation_hover.gif) no-repeat center top;
+}
+ul.Navigation li span { /*--Drop down trigger styles--*/
+	width: 17px;
+	height: 35px;
+	float: left;
+	background: url(../Images/Items_btn.gif) no-repeat center top;
+}
+ul.Navigation li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.Navigation li ul.Items {
+	list-style: none;
+	position: absolute; /*--Important - Keeps Items from affecting main navigation flow--*/
+	left: 0; top: 35px;
+	background: #333;
+	margin: 0; padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+	border: 1px solid #111;
+}
+ul.Navigation li ul.Items li{
+	margin: 0; padding: 0;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+}
+html ul.Navigation li ul.Items li a {
+	float: left;
+	width: 145px;
+	background: #333 url(../Images/dropdown_linkbg.gif) no-repeat 10px center;
+	padding-left: 20px;
+}
+html ul.Navigation li ul.Items li a:hover { /*--Hover effect for Items links--*/
+	background: #222 url(../Images/dropdown_linkbg.gif) no-repeat 10px center;
+}
+
+
+
+
+a:link {color: #000000; text-decoration: underline; }
+a:active {color: #0000ff; text-decoration: underline; }
+a:visited {color: #008000; text-decoration: underline; }
+a:hover {color: #ff0000; text-decoration: none; }
+
+
+
